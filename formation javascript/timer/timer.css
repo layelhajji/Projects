@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(252, 252, 237);
+    margin-top: -200px;
+}
+
+.containner {
+    border-radius: 30px;
+    text-align: center;
+    width: 25%;
+    padding: 35px;
+    background-image:linear-gradient(#FFD3E7,#AED9E0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}   
+button{
+    border-radius: 20px;
+    border: none;
+}

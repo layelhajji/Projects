@@ -1,0 +1,45 @@
+
+
+      /* Style pour le corps de la page */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #e3d6d6;
+      }
+      
+      /* Style pour le conteneur de la page */
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(23, 21, 21, 0.1);
+        
+      }
+      
+      /* Style pour le titre de la page */
+      h1 {
+        text-align: center;
+        margin-top: 0;
+      }
+      
+      /* Style pour les liens de réseaux sociaux */
+      .social-media {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      
+      .social-media a {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 24px;
+        color: #161515;
+      }
+      
+      .social-media a:hover {
+        color: #8398a3;
+      }
+    
+

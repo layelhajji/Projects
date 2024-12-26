@@ -1,0 +1,9 @@
+body{
+    background-image: url(im3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hi{
+    display:flex;
+   justify-content: center;
+}

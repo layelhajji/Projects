@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>", initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body style="background-image: url(font.form.avif); background-repeat:no-repeat;background-size: 100% 100%";>
+    <form>
+        <fieldset>
+            <legend>votre identide</legend> 
+            <label for="nom">nom:</label>
+            <input type="text" id="nom" name="nom">
+            <br><br>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="tel">telephone</label>
+            <input type="telephone" id="tel" name="tel">
+            <br><br>
+            <input type="submit" value="ok">
+
+        </fieldset>
+        <fieldset>
+            <legend>addresse de livraison</legend>
+            <label for="ad">adresse</label>
+            <textarea rows="3" cols="30" id="ad" name="ad"></textarea>
+            <br><br>
+            <label for="code">code postal</label>
+            <input type="number" id="code" name="code">
+            <br><br>
+            <label for="pays">pays</label>
+            <select name="pays" id="pays"> 
+                <option value="nabeul">nabeul</option>
+                <option value="tunis">tunis</option>
+                <option value="sfax">sfax</option>
+                <option value="ariana">ariana</option>
+                <option value="manouba">manouba</option>
+            </select>
+            <br><br>
+            <label for="date">date de livraison</label>
+            <input type="date" id="date" name="date">
+            <br><br>
+            <label for="heure">l'heure de livraison</label>
+            <input type="time" id="time" name="time">
+
+            <br>
+            <input type="submit" value="ok" >
+        </fieldset>
+        <fieldset> 
+            <legend>informations CB</legend>
+            <fieldset>
+                <legend>type de carte bancaire</legend>
+                <label for="visa">visa</label>
+                <input type="radio" id="visa" name="m">
+                <br>
+                <label for="amex">AmEx</label>
+                <input type="radio" id="amex" name="m">
+                <br>
+                <label for="mastercard">Mastercard</label>
+                <input type="radio" id="mastercard" name="m">
+            </fieldset>
+            <label for="numcate">numero de carte</label>
+            <input type="number" id="numcarte" name="numcarte">
+            <br>
+            <label for="codese">code securite</label>
+            <input type="number" id="codese" name="codese" placeholder="meme nom que sur la carte">
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="j'achete">
+        </fieldset>
+    </form>
+</body>
+</html>
